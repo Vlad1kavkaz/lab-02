@@ -7,5 +7,7 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-    cout << "hello world" << endl;
+    string name;
+    cin >> name;
+    cout << "hello world from" << name << endl;
 }
