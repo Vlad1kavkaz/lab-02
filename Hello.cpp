@@ -3,11 +3,11 @@
 //
 
 #include <iostream>
+#include <string>
 
-using namespace std;
 
 int main(int argc, char** argv) {
-    string name;
-    cin >> name;
-    cout << "hello world from" << name << endl;
+    string name;                                         // Name of user
+    std::cin >> name;                                    // input name of user
+    std::cout << "hello world from" << name << std::endl;// output name of user
 }
