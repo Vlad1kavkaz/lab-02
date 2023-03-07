@@ -8,7 +8,7 @@
 int
 main(int argc, char** argv)
 {
-  string name;                                          // Name of user
-  std::cin >> name;                                     // input name of user
-  std::cout << "hello world from" << name << std::endl; // output name of user
+  string name;                                          // имя пользователя
+  std::cin >> name;                                     // ввод имени
+  std::cout << "hello world from" << name << std::endl; // вывод
 }
